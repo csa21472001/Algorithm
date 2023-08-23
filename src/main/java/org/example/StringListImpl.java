@@ -5,11 +5,9 @@ import java.util.Arrays;
 public class StringListImpl implements StringList {
     private final String[] storage;
     private int size;
-
     public StringListImpl() {
         storage = new String[10];
     }
-
     public StringListImpl(initSize) {
         storage = new String[initSize];
     }
